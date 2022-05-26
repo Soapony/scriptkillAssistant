@@ -1,0 +1,5 @@
+<view class="container">
+    <text class="position">店长</text>
+    <text class="salary">薪资： {{salary}}</text>
+    <text class="action">监督：本月月底前可以监督一名员工所负责的项目，如果查出纰漏，可以选择用双倍资金弥补，弥补后可以避免所造成的损失或提升响应收益</text>
+</view>

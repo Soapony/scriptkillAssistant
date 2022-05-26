@@ -1,0 +1,79 @@
+<!--pages/income/income.wxml-->
+<view class="container">
+  <view class="title">剧本店铺运营收益计算</view>
+  <form catchsubmit="formSubmit" catchreset="formReset">
+
+      <view class="page-section page-section-gap">
+        <view class="page-section-title">硬核/机制dm</view>
+        <checkbox-group name="dm10">
+          <label><checkbox value="10000"/>投放1K</label>
+        </checkbox-group>
+        <checkbox-group name="dm11">
+          <label><checkbox value="40000"/>投放3K</label>
+        </checkbox-group>
+        </view>
+
+      <view class="page-section page-section-gap">
+        <view class="page-section-title">情感/恐怖dm</view>
+        <checkbox-group name="dm20">
+          <label><checkbox value="10000"/>投放1K</label>
+        </checkbox-group>
+
+        <checkbox-group name="dm21">
+          <label><checkbox value="60000"/>投放5K</label>
+        </checkbox-group>
+      </view>
+
+      <view class="page-section page-section-gap">
+        <view class="page-section-title">剧本采购</view>
+        <checkbox-group name="buy0">
+          <label><checkbox value="1"/>投放1K</label>
+        </checkbox-group>
+        <checkbox-group name="buy1">
+          <label><checkbox value="1.5"/>投放5K</label>
+        </checkbox-group>
+      </view>
+
+      <view class="page-section page-section-gap">
+        <view class="page-section-title">运营客服</view>
+        <checkbox-group name="service0">
+          <label><checkbox value="1"/>投放2K</label>
+        </checkbox-group>
+        <checkbox-group name="service1">
+          <label><checkbox value="1.5"/>投放5K</label>
+        </checkbox-group>
+        </view>
+
+      <view class="page-section page-section-gap">
+        <view class="page-section-title">餐饮负责人</view>
+        <checkbox-group name="meal0">
+          <label><checkbox value="minus1Kpp"/>不投放</label>
+        </checkbox-group>
+        <checkbox-group name="meal1">
+          <label><checkbox value="none"/>投放1K</label>
+        </checkbox-group>
+        <checkbox-group name="meal2">
+          <label><checkbox value="1.5"/>投放3K</label>
+        </checkbox-group>
+      </view>
+        
+      <view class="page-section page-section-gap">
+        <view class="page-section-title">保洁人员</view>
+        <checkbox-group name="clean0">
+          <label><checkbox value="1"/>投放2K</label>
+        </checkbox-group>
+        <checkbox-group name="clean1">
+          <label><checkbox value="0"/>投放1K</label>
+        </checkbox-group>
+        </view>
+
+      <view class="btn-area">
+        <button style="margin:10px" type="primary" formType="submit">Submit</button>
+        <button style="margin:10px" type="primary" formType="reset">Reset</button>
+      </view>
+  </form>
+
+  <view class="resultContainer">
+    <text>{{result}}</text>
+  </view>
+</view>

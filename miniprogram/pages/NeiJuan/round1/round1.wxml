@@ -1,0 +1,18 @@
+<!--pages/NeiJuan/round1/round1.wxml-->
+<view class="title">岗位竞选！</view>
+
+<view class='picker'>
+  <label class="pickerLabel">期望岗位:</label>
+  <picker class="pickerInput" bindchange="bindPickerChange" value="{{index}}" range="{{positions}}" disabled="{{btn}}">
+      {{positions[index]}}
+</picker>
+</view>
+<view class="salary">
+  <view class="texts">期望薪资</view>
+  <input class="inputt" name="input" placeholder="请输入" bindinput="salaryInput" disabled="{{btn}}"/>
+</view>
+
+<view class="btn">
+<button class='btn' type="primary" bindtap="submit" disabled="{{btn}}">提交意愿</button>
+<button class="btn" type="primary" bindtap="checkResult">查看结果</button>
+</view>

@@ -1,0 +1,19 @@
+<!--pages/NeiJuan/selectCharacter/selectCharacter.wxml-->
+<view class='container'>
+    <view class="title">我是... ...</view>
+    <view class="radiogroup">
+        <radio-group bindchange="radioChange">
+            <label class="aLabel" wx:for="{{items}}" wx:key="{{item.value}}">
+
+                <view class="radioNtext">
+                <radio value="{{item.value}}"/>
+                <text class="texts">{{item.name}}</text>
+                </view>
+                
+            </label>
+        </radio-group>
+    </view>
+    <view class='btn'>
+        <button type="primary" bindtap="confirm">确定</button>
+    </view>
+</view>

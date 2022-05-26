@@ -1,0 +1,49 @@
+/* pages/NeiJuan/round1/round1.wxss */
+.title{
+    margin:20px;
+    font-size:x-large;
+    font-weight:bold;
+    text-align:center;
+}
+
+.texts{
+    margin:10px;
+    font-size:large;
+}
+
+.btn{
+    margin:10px;
+    margin-top:30px;
+}
+
+.inputt{
+    padding:5px;
+    margin:5px;
+    border:2px solid grey;
+    border-radius:5px;
+}
+
+.salary{
+    padding-bottom:5px;
+    border-bottom:solid 1px #c0c0c0;
+}
+
+.picker{
+    display:flex;
+    margin:10px;
+    line-height:2rem;
+    border-bottom:solid 1px #c0c0c0;
+    border-top:solid 1px #c0c0c0;
+}
+
+.picker >.pickerLabel{
+    flex:1%;
+    max-width:5rem;
+}
+
+.picker >.pickerInput{
+    flex:1%;
+    display:inline-block;
+    height:2rem;
+    line-height:2rem;
+}

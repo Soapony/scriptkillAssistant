@@ -1,0 +1,28 @@
+/* pages/NeiJuan/selectCharacter/selectCharacter.wxss */
+
+.title{
+    font-size:17pt;
+    font-weight:bold;
+    margin:10px;
+}
+
+.radiogroup{
+    width:80%;
+    justify-content:center;
+    display:flex;
+    border:3px solid rgb(170, 170, 170);
+}
+
+.radioNtext{
+    margin:20px;
+    border-bottom:4px solid black;
+}
+
+.texts{
+    margin-left:10px;
+    font-size:large;
+}
+
+.btn{
+    margin-top:20px;
+}

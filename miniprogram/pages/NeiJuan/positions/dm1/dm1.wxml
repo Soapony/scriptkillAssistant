@@ -1,0 +1,8 @@
+<view class="container">
+    <text class="position">硬核/机制DM</text>
+    <text class="salary">薪资： {{salary}}</text>
+    <text class="action">基础培训（费用1000元）
+    效果：本月店铺营业额增加 1万元</text>
+    <text class="action">进阶培训（费用3000元）
+    效果：本月店面营业额增加 4万元</text>
+</view>

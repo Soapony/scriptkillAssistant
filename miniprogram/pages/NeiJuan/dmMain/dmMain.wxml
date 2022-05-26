@@ -1,0 +1,10 @@
+<!--pages/NeiJuan/dmMain/dmMain.wxml-->
+<view class="container">
+    <view class="texts">内卷DM控制台</view>
+    <button class="btn" type="primary" bindtap="newGame">创建新局</button>
+    <button class="btn" type="primary" open-type="share">邀请玩家</button>
+    <button class="btn" type="primary" bindtap="gotoIncome">运营店铺机制</button>
+    <button class="btn" type="primary" bindtap="gotoBid">投标机制</button>
+    <button class="btn" type="primary" bindtap="gotoMonthlyEvent">店铺每月事件</button>
+    <button class="btn" type="primary" bindtap="gotoPlayer">玩家页面(测试用)</button>
+</view>

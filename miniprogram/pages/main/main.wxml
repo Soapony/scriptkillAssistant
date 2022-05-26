@@ -1,0 +1,6 @@
+<!--pages/main/main.wxml-->
+<view class="container">
+  <view class="pages" wx:for="{{scriptnames}}">
+    <button type="default" class="scriptname" plain="true" bindtap="onClick" data-text="{{index}}">{{item}}</button>
+  </view>
+</view>

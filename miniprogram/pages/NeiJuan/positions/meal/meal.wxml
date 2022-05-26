@@ -1,0 +1,9 @@
+<view class="container">
+    <text class="position">餐饮负责人</text>
+    <text class="salary">薪资： {{salary}}</text>
+    <text class="action">订餐：不知名小餐馆（费用1000元）
+    效果未知</text>
+    <text class="action">订餐：知名餐厅餐馆（费用3000元）
+    效果：本月店铺营业额增加50%</text>
+    <text class="action">如没有订餐，月底发工资时除你之外每人上交1000元伙食费</text>
+</view>

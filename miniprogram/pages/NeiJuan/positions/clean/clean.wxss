@@ -1,0 +1,21 @@
+.position{
+    margin:15px;
+    font-size:x-large;
+    border-bottom:5px solid black;
+    padding-bottom:10px;
+}
+
+.salary{
+    margin:10px;
+    font-size:large;
+    border-bottom:5px solid rgb(172, 172, 172);
+    padding-bottom:10px;
+}
+
+.action{
+    width:90%;
+    margin:15px;
+    border-top:3px solid grey;
+    border-bottom:3px solid grey;
+    padding:10px;
+}

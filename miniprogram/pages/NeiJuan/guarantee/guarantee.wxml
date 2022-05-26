@@ -1,0 +1,18 @@
+<view class='container'>
+    <text class='title'>借贷</text>
+    <view class="flex-warp">
+        <text class="texts">金额</text>
+        <input class="inputt" name="rent" placeholder="单位：万" bindinput="rentAmount"/>
+    </view>
+
+    <view class='picker'>
+        <label class="pickerLabel">担保人:</label>
+        <picker class="pickerInput" bindchange="bindPickerChange" value="{{index}}" range="{{guarantors}}">
+            {{guarantors[index]}}
+        </picker>
+    </view>
+
+    <view class='btn'>
+        <button type="primary" bindtap="confirm">确定</button>
+    </view>
+</view>

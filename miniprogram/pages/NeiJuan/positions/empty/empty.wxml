@@ -1,0 +1,6 @@
+<view class='container'>
+    <view class='main'>
+        <text class="title">竞选失败！</text>
+        <text class="title">薪资扣1000元！</text>
+    </view>
+</view>

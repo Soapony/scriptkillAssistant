@@ -1,0 +1,6 @@
+<!--pages/NeiJuan/dmMain/dmMain.wxml-->
+<view class="container">
+    <view class="texts">{{character}}</view>
+    <button class="btn" type="primary" bindtap="round1">1</button>
+    <button class="btn" type="primary" bindtap="round2">2</button>
+</view>

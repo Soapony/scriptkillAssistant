@@ -1,0 +1,10 @@
+/* pages/NeiJuan/dmMain/dmMain.wxss */
+.texts{
+    margin:10px;
+    font-size:x-large;
+    font-weight:bold;
+}
+
+.btn{
+    margin:5px;
+}

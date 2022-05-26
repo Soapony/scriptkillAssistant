@@ -1,0 +1,10 @@
+/* pages/NeiJuan/playerMain/playerMain.wxss */
+.texts{
+    margin:40px;
+    font-size:x-large;
+    font-weight:bold;
+}
+
+.btn{
+    margin:40px;
+}

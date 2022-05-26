@@ -1,0 +1,8 @@
+<view class="container">
+    <text class="position">运营客服</text>
+    <text class="salary">薪资： {{salary}}</text>
+    <text class="action">发传单（费用2000元）
+    效果：未行使店面营业额减少50%</text>
+    <text class="action">购买好评（费用5000元）
+    效果：本月店面营业额增加50%</text>
+</view>

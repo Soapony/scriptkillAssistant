@@ -1,0 +1,69 @@
+/* pages/bid/bid.wxss */
+.table{
+  border:0px solid darkgray;
+}
+.tr{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 3rem;
+  align-items: center;
+  border:1px solid rgb(165, 165, 165);
+}
+
+.td{
+  width:50px;
+  justify-content: center;
+  text-align:center;
+}
+
+.bg-w{
+  background: snow;
+}
+
+.bg-g{
+  background:snow;
+}
+
+.th{
+  width:40%;
+  justify-content:center;
+  background: grey;
+  color:#fff;
+  display:flex;
+  height:3rem;
+  align-items:center;
+}
+
+.tb{
+  width:40%;
+  justify-content:center;
+  background: white;
+  color:rgb(0, 0, 0);
+  display:flex;
+  height:3rem;
+  align-items:center;
+  border:1px solid rgb(175, 175, 175);
+}
+
+.x1{
+  color:black;
+}
+
+.x2{
+  background-color:rgb(184, 184, 184);
+}
+
+.btn-area{
+  margin:10px;
+}
+
+button{
+  margin:10px;
+}
+
+.num{
+  word-wrap:break-word;
+  word-break:break-all;
+  white-space:pre-line;
+}

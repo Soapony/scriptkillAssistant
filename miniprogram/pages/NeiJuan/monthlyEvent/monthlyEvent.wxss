@@ -1,0 +1,7 @@
+.event{
+    width:90%;
+    margin:15px;
+    border-top:3px solid grey;
+    border-bottom:3px solid grey;
+    padding:10px;
+}

@@ -1,0 +1,1 @@
+"D:\Program Files (x86)\微信web开发者工具\cli.bat" cloud functions deploy --e cloud1-6g5s6avn57ea7d33 --n quickstartFunctions --r --project "C:\Users\Administrator\Desktop\scriptkillAssistant" --report_first --report

@@ -1,0 +1,8 @@
+<view class="container">
+    <text class="position">情感/恐怖DM</text>
+    <text class="salary">薪资： {{salary}}</text>
+    <text class="action">基础培训（费用1000元）
+    效果：本月店铺营业额增加 1万元</text>
+    <text class="action">进阶培训（费用5000元）
+    效果：本月店面营业额增加 6万元</text>
+</view>

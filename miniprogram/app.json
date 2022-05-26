@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/password/password",
+    "pages/NeiJuan/dmMain/dmMain",
+    "pages/NeiJuan/guarantee/guarantee",
+    "pages/NeiJuan/income/income",
+    "pages/NeiJuan/monthlyEvent/monthlyEvent",
+    "pages/NeiJuan/selectCharacter/selectCharacter",
+    "pages/NeiJuan/playerMain/playerMain",
+    "pages/NeiJuan/round1/round1",
+    "pages/NeiJuan/round2/round2",
+    "pages/main/main",
+    "pages/NeiJuan/bid/bid",
+    "pages/NeiJuan/positions/dm1/dm1",
+    "pages/NeiJuan/positions/dm2/dm2",
+    "pages/NeiJuan/positions/buy/buy",
+    "pages/NeiJuan/positions/service/service",
+    "pages/NeiJuan/positions/meal/meal",
+    "pages/NeiJuan/positions/clean/clean",
+    "pages/NeiJuan/positions/officer/officer",
+    "pages/NeiJuan/positions/empty/empty"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "戏说机制助手",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

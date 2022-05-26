@@ -1,0 +1,8 @@
+<view class="container">
+    <text class="position">保洁人员</text>
+    <text class="salary">薪资： {{salary}}</text>
+    <text class="action">购买洁具（费用2000元）
+    效果：如未购买，店铺营业额减50%</text>
+    <text class="action">购买消防器材（费用1000元）
+    效果：如未更换，店铺本月营业额减 1万</text>
+</view>

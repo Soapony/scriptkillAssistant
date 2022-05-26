@@ -1,0 +1,25 @@
+/* pages/income/income.wxss */
+.page-section-title{
+    margin:10px;
+    font-weight: bold;
+}
+
+.title{
+    text-align:center;
+    font-size:17pt;
+}
+
+.resultContainer{
+    width:300px;
+    height:200px;
+    margin:20px;
+    background-color:rgb(255, 255, 255);
+    text-align:center;
+    font-size:15pt;
+    font-weight:bold;
+}
+
+checkbox-group{
+    margin:10px;
+    text-align:center;
+}
