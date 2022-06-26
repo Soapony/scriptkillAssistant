@@ -82,9 +82,7 @@ Page({
                 jizhi:0,
                 jizhiP:0,
                 qinggan:0,
-                qingganP:0,
-                liabilities:0,
-                guarantor:'',
+                qingganP:0
             },
             success: function(res) {
                 console.log(res)

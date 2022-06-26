@@ -2,7 +2,6 @@
   "pages": [
     "pages/password/password",
     "pages/NeiJuan/dmMain/dmMain",
-    "pages/NeiJuan/guarantee/guarantee",
     "pages/NeiJuan/income/income",
     "pages/NeiJuan/monthlyEvent/monthlyEvent",
     "pages/NeiJuan/selectCharacter/selectCharacter",

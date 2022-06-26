@@ -62,30 +62,26 @@
     <view class="title">投标！</view>
     <view class="flex-warp">
         <text class="texts">硬核</text>
-        <input class="inputt" name="amount1" placeholder="数量" bindinput="amount1Input" disabled="{{btn}}"/>
         <input class="inputt" name="price1" placeholder="价格(万元)" bindinput="price1Input" disabled="{{btn}}"/>
     </view>
 
     <view class="flex-warp">
         <text class="texts">恐怖</text>
-        <input class="inputt" name="amount2" placeholder="数量" bindinput="amount2Input" disabled="{{btn}}"/>
         <input class="inputt" name="price2" placeholder="价格(万元)" bindinput="price2Input" disabled="{{btn}}"/>
     </view>
 
     <view class="flex-warp">
         <text class="texts">机制</text>
-        <input class="inputt" name="amount3" placeholder="数量" bindinput="amount3Input" disabled="{{btn}}"/>
         <input class="inputt" name="price3" placeholder="价格(万元)" bindinput="price3Input" disabled="{{btn}}"/>
     </view>
 
     <view class="flex-warp">
         <text class="texts">情感</text>
-        <input class="inputt" name="amount4" placeholder="数量" bindinput="amount4Input" disabled="{{btn}}"/>
         <input class="inputt" name="price4" placeholder="价格(万元)" bindinput="price4Input" disabled="{{btn}}"/>
     </view>
 
     <view class='picker'>
-        <label class="pickerLabel">推荐人:</label>
+        <label class="pickerLabel">为TA出价：</label>
         <picker class="pickerInput" bindchange="bindPickerChange" value="{{index}}" range="{{names}}" disabled="{{btn}}">
             {{names[index]}}
         </picker>
@@ -100,7 +96,6 @@
 <view class="end" wx:if="{{round == 4}}">
     <view class='main'>
         <text class='endText'>投标结束！</text>
-        <text class='endText'>还债：{{liabilities}}万元！</text>
-        <text class='endText'>担保人：{{guarantor}}</text>
+        <text class='endText'>该还债啦！</text>
     </view>
 </view>

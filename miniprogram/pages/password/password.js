@@ -10,7 +10,7 @@ Page({
   initData(e) {
     console.log(e)
     // 模态交互效果
-    if(e.detail == "947486"){
+    if(e.detail == "123456"){
       wx.showToast({
         title: '密码正确',
         icon:'none',

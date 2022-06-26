@@ -9,7 +9,7 @@
 </view>
 <view class="salary">
   <view class="texts">期望薪资</view>
-  <input class="inputt" name="input" placeholder="请输入" bindinput="salaryInput" disabled="{{btn}}"/>
+  <input class="inputt" name="input" placeholder="请输入(千元整）" bindinput="salaryInput" disabled="{{btn}}"/>
 </view>
 
 <view class="btn">

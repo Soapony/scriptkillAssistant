@@ -396,29 +396,8 @@
         <view class="th">恐怖</view>
         <view class="th">机制</view>
         <view class="th">情感</view>
-        <view class="th x2">总计</view>
       </view>
       <block>
-
-        <view class="tr bg-g">
-          <view class="td x1"></view>
-            <view class="td">
-              <text class="num">{{store1[0][0]}}</text>
-            </view>
-            <view class="td">
-              <text class="num">{{store1[0][1]}}</text>
-            </view>
-            <view class="td">
-              <text class="num">{{store1[0][2]}}</text>
-            </view>
-            <view class="td">
-              <text class="num">{{store1[0][3]}}</text>
-            </view>
-            <view class="td">
-              <text class="num"></text>
-            </view>
-        </view>
-
         <view class="tr bg-g">
           <view class="td x1">赵胜男</view>
             <view class="td">
@@ -432,28 +411,6 @@
             </view>
             <view class="td">
               <text class="num">{{store1[0][7]}}</text>
-            </view>
-            <view class="td">
-              <text class="num">{{total1[0]}}</text>
-            </view>
-        </view>
-
-        <view class="tr bg-g">
-          <view class="td x1"></view>
-            <view class="td">
-              <text class="num">{{store1[1][0]}}</text>
-            </view>
-            <view class="td">
-              <text class="num">{{store1[1][1]}}</text>
-            </view>
-            <view class="td">
-              <text class="num">{{store1[1][2]}}</text>
-            </view>
-            <view class="td">
-              <text class="num">{{store1[1][3]}}</text>
-            </view>
-            <view class="td">
-              <text class="num"></text>
             </view>
         </view>
 
@@ -471,28 +428,6 @@
             <view class="td">
               <text class="num">{{store1[1][7]}}</text>
             </view>
-            <view class="td">
-              <text class="num">{{total1[1]}}</text>
-            </view>
-        </view>
-
-        <view class="tr bg-g">
-          <view class="td x1"></view>
-            <view class="td">
-              <text class="num">{{store1[2][0]}}</text>
-            </view>
-            <view class="td">
-              <text class="num">{{store1[2][1]}}</text>
-            </view>
-            <view class="td">
-              <text class="num">{{store1[2][2]}}</text>
-            </view>
-            <view class="td">
-              <text class="num">{{store1[2][3]}}</text>
-            </view>
-            <view class="td">
-              <text class="num"></text>
-            </view>
         </view>
 
         <view class="tr bg-g">
@@ -508,28 +443,6 @@
             </view>
             <view class="td">
               <text class="num">{{store1[2][7]}}</text>
-            </view>
-            <view class="td">
-              <text class="num">{{total1[2]}}</text>
-            </view>
-        </view>
-
-        <view class="tr bg-g">
-          <view class="td x1"></view>
-            <view class="td">
-              <text class="num">{{store1[3][0]}}</text>
-            </view>
-            <view class="td">
-              <text class="num">{{store1[3][1]}}</text>
-            </view>
-            <view class="td">
-              <text class="num">{{store1[3][2]}}</text>
-            </view>
-            <view class="td">
-              <text class="num">{{store1[3][3]}}</text>
-            </view>
-            <view class="td">
-              <text class="num"></text>
             </view>
         </view>
 
@@ -547,28 +460,6 @@
             <view class="td">
               <text class="num">{{store1[3][7]}}</text>
             </view>
-            <view class="td">
-              <text class="num">{{total1[3]}}</text>
-            </view>
-        </view>
-
-        <view class="tr bg-g">
-          <view class="td x1"></view>
-            <view class="td">
-              <text class="num">{{store1[4][0]}}</text>
-            </view>
-            <view class="td">
-              <text class="num">{{store1[4][1]}}</text>
-            </view>
-            <view class="td">
-              <text class="num">{{store1[4][2]}}</text>
-            </view>
-            <view class="td">
-              <text class="num">{{store1[4][3]}}</text>
-            </view>
-            <view class="td">
-              <text class="num"></text>
-            </view>
         </view>
 
         <view class="tr bg-g">
@@ -584,28 +475,6 @@
             </view>
             <view class="td">
               <text class="num">{{store1[4][7]}}</text>
-            </view>
-            <view class="td">
-              <text class="num">{{total1[4]}}</text>
-            </view>
-        </view>
-
-        <view class="tr bg-g">
-          <view class="td x1"></view>
-            <view class="td">
-              <text class="num">{{store1[5][0]}}</text>
-            </view>
-            <view class="td">
-              <text class="num">{{store1[5][1]}}</text>
-            </view>
-            <view class="td">
-              <text class="num">{{store1[5][2]}}</text>
-            </view>
-            <view class="td">
-              <text class="num">{{store1[5][3]}}</text>
-            </view>
-            <view class="td">
-              <text class="num"></text>
             </view>
         </view>
 
@@ -623,28 +492,6 @@
             <view class="td">
               <text class="num">{{store1[5][7]}}</text>
             </view>
-            <view class="td">
-              <text class="num">{{total1[5]}}</text>
-            </view>
-        </view>
-
-        <view class="tr bg-g">
-          <view class="td x1"></view>
-            <view class="td">
-              <text class="num">{{store1[6][0]}}</text>
-            </view>
-            <view class="td">
-              <text class="num">{{store1[6][1]}}</text>
-            </view>
-            <view class="td">
-              <text class="num">{{store1[6][2]}}</text>
-            </view>
-            <view class="td">
-              <text class="num">{{store1[6][3]}}</text>
-            </view>
-            <view class="td">
-              <text class="num"></text>
-            </view>
         </view>
 
         <view class="tr bg-g">
@@ -660,9 +507,6 @@
             </view>
             <view class="td">
               <text class="num">{{store1[6][7]}}</text>
-            </view>
-            <view class="td">
-              <text class="num">{{total1[6]}}</text>
             </view>
         </view>
   

@@ -11,7 +11,6 @@ Page({
     store:[[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]],
     total:[0,0,0,0,0,0,0],
     store1:[[0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0]],
-    total1:[0,0,0,0,0,0,0],
     idS:['ZSN','SXM','QDD','LBG','ZDZ','WQY','ZJR'],
   },
 
@@ -64,32 +63,18 @@ Page({
     if(this.data.round == 3){
       let i=0;
       for(;i<7;i++){
-          await db.collection("NeiJuan").doc(this.data.idS[i]).get().then(
-            res =>{
-              console.log(res.data)
-              this.setData({
-                [`store1[${i}][0]`]:res.data.yinghe,
-                [`store1[${i}][1]`]:res.data.kongbu,
-                [`store1[${i}][2]`]:res.data.jizhi,
-                [`store1[${i}][3]`]:res.data.qinggan,
-                [`store1[${i}][4]`]:res.data.yingheP,
-                [`store1[${i}][5]`]:res.data.kongbuP,
-                [`store1[${i}][6]`]:res.data.jizhiP,
-                [`store1[${i}][7]`]:res.data.qingganP,
-              })
-            }
-          )
+        await db.collection("NeiJuan").doc(this.data.idS[i]).get().then(
+          res =>{
+            console.log(res.data)
+            this.setData({
+              [`store1[${i}][4]`]:res.data.yingheP,
+              [`store1[${i}][5]`]:res.data.kongbuP,
+              [`store1[${i}][6]`]:res.data.jizhiP,
+              [`store1[${i}][7]`]:res.data.qingganP,
+            })
+          }
+        )
       }
-      let u = this.data;
-      this.setData({
-        "total1[0]":u.store1[0][0]*u.store1[0][4]+u.store1[0][1]*u.store1[0][5]+u.store1[0][2]*u.store1[0][6]+u.store1[0][3]*u.store1[0][7],
-        "total1[1]":u.store1[1][0]*u.store1[1][4]+u.store1[1][1]*u.store1[1][5]+u.store1[1][2]*u.store1[1][6]+u.store1[1][3]*u.store1[1][7],
-        "total1[2]":u.store1[2][0]*u.store1[2][4]+u.store1[2][1]*u.store1[2][5]+u.store1[2][2]*u.store1[2][6]+u.store1[2][3]*u.store1[2][7],
-        "total1[3]":u.store1[3][0]*u.store1[3][4]+u.store1[3][1]*u.store1[3][5]+u.store1[3][2]*u.store1[3][6]+u.store1[3][3]*u.store1[3][7],
-        "total1[4]":u.store1[4][0]*u.store1[4][4]+u.store1[4][1]*u.store1[4][5]+u.store1[4][2]*u.store1[4][6]+u.store1[4][3]*u.store1[4][7],
-        "total1[5]":u.store1[5][0]*u.store1[5][4]+u.store1[5][1]*u.store1[5][5]+u.store1[5][2]*u.store1[5][6]+u.store1[5][3]*u.store1[5][7],
-        "total1[6]":u.store1[6][0]*u.store1[6][4]+u.store1[6][1]*u.store1[6][5]+u.store1[6][2]*u.store1[6][6]+u.store1[6][3]*u.store1[6][7],
-      })
     }
   },
 

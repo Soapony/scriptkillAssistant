@@ -44,7 +44,7 @@ Page({
         }
         db.collection("NeiJuan").doc(this.data.posKey[this.data.index-1]).get().then(res => {
             console.log('get salary info',res.data);
-            if(res.data.salary > this.data.salary){
+            if(res.data.salary >= this.data.salary){
                 console.log('less than salary: ',this.data.posKey[this.data.index-1])
                 db.collection("NeiJuan").doc(this.data.posKey[this.data.index-1]).update({
                     data:{

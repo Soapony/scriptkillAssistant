@@ -13,7 +13,7 @@ Page({
         let i=0;
         let idS = ['ZSN','SXM','QDD','LBG','ZDZ','WQY','ZJR'];
         let pos = ['dm1','dm2','buy','service','meal','clean','officer'];
-        let salary = [5001,5001,4001,6001,4001,3001,8001];
+        let salary = [5000,5000,4000,6000,4000,3000,8000];
         for(;i<7;i++){
             db.collection('NeiJuan').doc(idS[i]).remove({
                 success:function(res){

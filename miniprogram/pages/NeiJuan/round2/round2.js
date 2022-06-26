@@ -18,15 +18,13 @@ Page({
         price:[0,0,0,0],
         names:['赵胜男','孙小美','钱多多','李表哥','周大壮','吴情义','郑经人'],
         idS:['ZSN','SXM','QDD','LBG','ZDZ','WQY','ZJR'],
-        liabilities:0,
-        guarantor:'',
     },
     
     submit(){
         this.setData({
             btn:true,
         })
-        let t=this.data;
+        let t=this.data
         db.collection('NeiJuan').doc(this.data.myCharId).update({
             data:{
                 yinghe:t.amount[0],
@@ -38,56 +36,48 @@ Page({
                 console.log(res.data)
             }
         })
-        if(t.round == 2){
-            db.collection('NeiJuan').doc(this.data.myCharId).update({
-                data:{
-                    yingheP:t.price[0],
-                    kongbuP:t.price[1],
-                    jizhiP:t.price[2],
-                    qingganP:t.price[3],
-                },
-                success: function(res){
-                    console.log(res.data)
-                }
-            })
-        }
-        if(t.round == 3){
-            db.collection('NeiJuan').doc(this.data.charId).get().then(res =>{
-                let r=res.data;
-                if(!(t.price[0]<=r.yingheP || r.yingheP == 0)){
-                    this.setData({
-                        'price[0]':r.yingheP
-                    })
-                }
-                if(!(t.price[1]<=r.kongbuP || r.kongbuP == 0)){
-                    this.setData({
-                        'price[1]':r.kongbuP
-                    })
-                }
-                if(!(t.price[2]<=r.jizhiP || r.jizhiP == 0)){
-                    this.setData({
-                        'price[2]':r.jizhiP
-                    })
-                }
-                if(!(t.price[3]<=r.qingganP || r.qingganP == 0)){
-                    this.setData({
-                        'price[3]':r.qingganP
-                    })
-                }
-                console.log(this.data.price);
+        db.collection('NeiJuan').doc(this.data.charId).get().then(res =>{
+            if(t.price[0]<=res.data.yingheP || res.data.yingheP == 0){
                 db.collection('NeiJuan').doc(this.data.charId).update({
                     data:{
                         yingheP:t.price[0],
+                    },
+                    success:function(res){
+                        console.log(res.data)
+                    }
+                })
+            }
+            if(t.price[1]<=res.data.kongbuP || res.data.kongbuP == 0){
+                db.collection('NeiJuan').doc(this.data.charId).update({
+                    data:{
                         kongbuP:t.price[1],
+                    },
+                    success:function(res){
+                        console.log(res.data)
+                    }
+                })
+            }
+            if(t.price[2]<=res.data.jizhiP || res.data.jizhiP == 0){
+                db.collection('NeiJuan').doc(this.data.charId).update({
+                    data:{
                         jizhiP:t.price[2],
+                    },
+                    success:function(res){
+                        console.log(res.data)
+                    }
+                })
+            }
+            if(t.price[3]<=res.data.qingganP || res.data.qingganP == 0){
+                db.collection('NeiJuan').doc(this.data.charId).update({
+                    data:{
                         qingganP:t.price[3],
                     },
                     success:function(res){
                         console.log(res.data)
                     }
                 })
-            })
-        }
+            }
+        })
     },
 
     nextRound(){
@@ -172,8 +162,6 @@ Page({
             console.log('get char info',res.data)
             this.setData({
                 myCharId:res.data[0]._id,
-                liabilities:res.data[0].liabilities,
-                guarantor:res.data[0].guarantor,
             })
         })
     },

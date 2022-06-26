@@ -40,7 +40,7 @@ Page({
 
     round2(){
         wx.navigateTo({
-            url:"../guarantee/guarantee"
+            url:"../round2/round2"
         })
     },
 
